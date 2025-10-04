@@ -1,0 +1,17 @@
+class Animal:
+    def __init__(self, nombre):
+        self.nombre = nombre
+
+    def hacer_sonido(self):
+        print("Este animal hace un sonido.")
+
+
+class Perro(Animal):
+    def hacer_sonido(self):
+        print("¡Guau guau!")
+
+animal1 = Animal("Criatura")
+perro1 = Perro("Firulais")
+
+animal1.hacer_sonido()   
+perro1.hacer_sonido()   
